@@ -14,6 +14,7 @@ namespace FileCreate
             bool directoryExists = Directory.Exists(rootDirectory);
             bool fileExists = File.Exists(fullFilePath);
 
+
             if (directoryExists && fileExists)
             {
                 Console.WriteLine($"File {fileName} already exists in {rootDirectory}.");
